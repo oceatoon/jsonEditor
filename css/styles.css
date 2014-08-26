@@ -1,0 +1,147 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+html{
+	background: url('../images/bg_tile.jpg') #18222b;
+}
+
+body{
+	color:#fcfcfc;
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+	min-height: 930px;
+	background:url('../images/bg_center.jpg') center 0px no-repeat;
+}
+section{
+	/*width: 960px;
+    margin:10px auto;*/
+border-top:1px solid white;
+padding:10px;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+    text-decoration:none;
+    color: #FFFFFF;
+}
+.hidden{
+	display:none;
+}
+
+/*----------------------------
+	Headers & Footers
+-----------------------------*/
+
+header{
+	background-color:#13181d;
+	display: block;
+	height: 80px;
+	padding: 10px;
+	border-bottom:1px solid white;
+	
+}
+/*----------------------------
+    Navigation
+-----------------------------*/
+#filter{
+	/*text-align: center;*/
+	padding: 10px;
+}
+.dark{
+	background-color:#0E1D2D;
+}
+/*----------------------------
+	Content area
+-----------------------------*/
+#container{
+	display:block;
+	overflow:hidden;
+}
+
+#container li{
+    /*background-color: #18222b;*/
+	min-height: 25px;
+	padding:5px;
+	list-style: none outside none;
+	margin: 6px;
+	position: relative;
+	width: 190px;
+	
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+}
+#container li.selected{
+	border:1px solid red;
+}
+#container li.activeElem{
+    border:1px solid #54a6de;
+}
+#container ul{
+	overflow:hidden;
+}
+#container div.treePanel{
+	float:left;
+	margin:10px;
+	border : 1px solid grey;
+	/*background-color: beige;*/
+}
+#toolsContainer{
+	width:200px
+}
+
+
+.info ul {
+	margin-left:30px;
+}
+/*----------------------------
+    Popin
+-----------------------------*/
+#dialogContainer label{
+	display:block;
+    width:120px;
+}
+/*----------------------------
+	The Footer
+-----------------------------*/
+
+
+footer{
+	display:block;
+	background-color:#13181d;
+	position:fixed;
+	width:100%;
+	height:70px;
+	bottom:0;
+	left:0;
+	z-index: 100000;
+	border-top:1px solid white;
+}
+
+footer h2{
+	font-size:20px;
+	font-weight:normal;
+	left:50%;
+	margin-left:-400px;
+	padding:22px 0;
+	position:absolute;
+	width:400px;
+	color:#eee;
+}

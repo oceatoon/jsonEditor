@@ -1,0 +1,10 @@
+{"title_-_text":"",
+"path_-_text":"",
+"url_-_tpl_-_url":{"label":"",
+				   "url":""},
+"img_-_checkbox":"",
+"date_-_datepicker":"",
+"date_-_tpl_-_map":"",
+"desc":"",
+"save_-_callback":"saveCallback()"
+}
